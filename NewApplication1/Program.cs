@@ -6,6 +6,11 @@ namespace NewApplication1
 {
     class Program
     {
+
+        /// <summary>
+        /// 这是文档注释
+        /// </summary>
+        /// <param name="args">文档注释</param>
         static void Main(string[] args)//应用程序的一个入口:main方法,方法名建议首字母大写
         {
             Console.WriteLine();//快捷键:cw+2次tab键
@@ -27,6 +32,13 @@ namespace NewApplication1
             Console.WriteLine("百分比:{0:p2}", 0.25414);//百分比
             Console.WriteLine("往返过程:{0:r}", 50.545);//往返过程
             Console.WriteLine("科学计数法:{0:e4}", 12.3456789);//科学计数法
+
+            /*
+             这是多行
+             注释
+             */
+
+            //这是单行注释
         }
     }
 
