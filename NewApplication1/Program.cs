@@ -6,10 +6,12 @@ namespace NewApplication1
 {
     class Program
     {
-        static void Main(string[] args)//应用程序的一个入口:main方法
+        static void Main(string[] args)//应用程序的一个入口:main方法,方法名建议首字母大写
         {
+            Console.WriteLine();//快捷键:cw+2次tab键
             Console.WriteLine("hello world");//屏幕输出
             Console.ReadLine();//输入
+            Console.WriteLine("我叫{0},今年{1}","焦康",21);  //占位符 
         }
     }
 
