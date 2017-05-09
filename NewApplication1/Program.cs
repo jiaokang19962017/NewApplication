@@ -9,7 +9,7 @@ namespace NewApplication1
         static void Main(string[] args)//应用程序的一个入口:main方法
         {
             Console.WriteLine("hello world");//屏幕输出
-            Console.ReadLine();
+            Console.ReadLine();//输入
         }
     }
 
