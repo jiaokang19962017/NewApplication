@@ -6,9 +6,11 @@ namespace NewApplication1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//应用程序的一个入口:main方法
         {
-            Console.WriteLine("hello world");//控制台输出
+            Console.WriteLine("hello world");//屏幕输出
         }
     }
+
+
 }
